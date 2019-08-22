@@ -4,11 +4,11 @@ import pymysql
 from elasticsearch import Elasticsearch
 
 conn = pymysql.connect(
-    host='192.168.7.250',
+    host='127.0.0.1',
     port=3308,
-    user='wangshicheng',
-    passwd='shicheng@tbkt2017!',
-    db='tbkt_shuxue',
+    user='***',
+    passwd='***',
+    db='test',
     charset='utf8',
 )
 
